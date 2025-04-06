@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
         MPESA_API_KEY: process.env.MPESA_API_KEY,
         MPESA_SECRET: process.env.MPESA_SECRET,
     },
+    allowedDevOrigins: ["http://localhost:3000", "*.ngrok-free.app"],
 };
 
 export default nextConfig;
